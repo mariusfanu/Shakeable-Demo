@@ -12,6 +12,7 @@
 		E7097AB11FAC4F31000C5C1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7097AAF1FAC4F31000C5C1D /* Main.storyboard */; };
 		E7097AB31FAC4F31000C5C1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7097AB21FAC4F31000C5C1D /* Assets.xcassets */; };
 		E7097AB61FAC4F31000C5C1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7097AB41FAC4F31000C5C1D /* LaunchScreen.storyboard */; };
+		E7097ABE1FAC4F5E000C5C1D /* Shakeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7097ABD1FAC4F5E000C5C1D /* Shakeable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		E7097AB21FAC4F31000C5C1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7097AB51FAC4F31000C5C1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7097AB71FAC4F31000C5C1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7097ABD1FAC4F5E000C5C1D /* Shakeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shakeable.swift; sourceTree = "<group>"; };
+		E7C911B51FB389FE00A44194 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +59,12 @@
 			children = (
 				E7097AAB1FAC4F31000C5C1D /* AppDelegate.swift */,
 				E7097AAD1FAC4F31000C5C1D /* ViewController.swift */,
+				E7097ABD1FAC4F5E000C5C1D /* Shakeable.swift */,
 				E7097AAF1FAC4F31000C5C1D /* Main.storyboard */,
 				E7097AB21FAC4F31000C5C1D /* Assets.xcassets */,
 				E7097AB41FAC4F31000C5C1D /* LaunchScreen.storyboard */,
 				E7097AB71FAC4F31000C5C1D /* Info.plist */,
+				E7C911B51FB389FE00A44194 /* README.md */,
 			);
 			path = "Shakeable Demo";
 			sourceTree = "<group>";
@@ -137,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7097AAE1FAC4F31000C5C1D /* ViewController.swift in Sources */,
+				E7097ABE1FAC4F5E000C5C1D /* Shakeable.swift in Sources */,
 				E7097AAC1FAC4F31000C5C1D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
