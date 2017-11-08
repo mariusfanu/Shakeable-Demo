@@ -4,7 +4,5 @@ In this demo I've created a protocol with a default implementation, that shakes 
 
 Make sure your view conforms to Shakeable and call the *shake()* or *shake(for: secounds)* method to shake your view.
 
-Shake it
-
-![](https://imgur.com/a/jwkNa)
+See the shake here https://imgur.com/a/jwkNa
 
